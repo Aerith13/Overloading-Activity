@@ -15,12 +15,7 @@ public class App {
         return num1 + num2 + num3;
     }
 
-    /**
-     * Modify the methods in such a way that the Class App
-     * can now have 2 overloaded computeSum() methods.
-     * One computing the sum of two numbers, and one computing the sum
-     * of three numbers. 
-     */
+    //can now have 2 overloaded computeSum() methods.
 
     static int computeSum(int num1, int num2){
         return sum2(num1, num2);
@@ -30,10 +25,9 @@ public class App {
         return sum3(num1, num2, num3);
     }
 
-    /**
-     * 
-     * Create method that returns the greater integer value
-     */
+     
+    //method that returns the greater integer value
+     
 
     public static int greaterValue(int num1, int num2){
         if (num1 > num2)
@@ -41,12 +35,9 @@ public class App {
         else
            return num2;
       }
+        
+     //method that returns the greater double value
     
-    /**
-     * 
-     * Create method that returns the greater double value
-     */
-
     public static double greaterValue(double num1, double num2){
         if (num1 > num2)
            return num1;
@@ -61,10 +52,10 @@ public class App {
         System.out.println("Hello, World!");
         System.out.println(" "); 
 
-        /**
-         * Create Method calls that takes in 2 parameters, and 3 parameters
-         * respectively and computes their sum.
-         */
+       
+         //calls that takes in 2 parameters, and 3 parameters
+         //respectively and computes their sum.
+         
         System.out.println("Sum of 11 and 11 is: " + App.computeSum(11,11)); 
         System.out.println("Sum of 10, 172, and 88 is: " + App.computeSum(10,172,88)); 
         System.out.println("  "); 
