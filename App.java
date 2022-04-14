@@ -53,8 +53,7 @@ public class App {
         System.out.println(" "); 
 
        
-         //calls that takes in 2 parameters, and 3 parameters
-         //respectively and computes their sum.
+         //calls that takes in 2 parameters, and 3 parameters respectively and computes their sum.
          
         System.out.println("Sum of 11 and 11 is: " + App.computeSum(11,11)); 
         System.out.println("Sum of 10, 172, and 88 is: " + App.computeSum(10,172,88)); 
